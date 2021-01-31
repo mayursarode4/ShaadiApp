@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), NameListAdapter.ActionButtonClickListe
     lateinit var viewModel: MainActivityViewModel
     lateinit var nameListAdapter: NameListAdapter
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {:q
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
